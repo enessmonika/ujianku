@@ -6,7 +6,7 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.3",
+        "php": "^8.3.31",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^3.0"
     },
@@ -72,14 +72,13 @@
             "dont-discover": []
         }
     },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "php-http/discovery": true
-        }
+   "config": {
+    "platform": {
+        "php": "8.3.31"
+    },
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
     },
     "minimum-stability": "stable",
     "prefer-stable": true
